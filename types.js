@@ -1,4 +1,36 @@
 "use strict"
+// Types 6
+
+// let range = {
+//     from: 1,
+//     to: 5
+// };
+
+// range[Symbol.iterator] = function (){
+//     return {
+//         cur: this.from,
+//         last: this.to,
+//         next: function (){
+//             if (this.cur <= this.last) {
+//                 return {done: false, value: this.cur++};
+//             } else {
+//                 return {done: true};
+//             }
+//         }
+//     }
+// }
+
+// for (let num of range){
+//     console.log(num);
+// }
+
+// let arr = Array.from(range);
+
+// console.log(arr);
+
+// let arr2 = Array.from(range, (x) => x * x );
+
+// console.log(arr2);
 
 // Types 5
 
