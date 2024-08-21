@@ -1,4 +1,144 @@
 "use strict"
+// Types 7
+
+// let map = new Map();
+
+// map.set("name", "John");
+
+// let keys = Array.from(map.keys());
+
+// // Помилка: keys.push -- це не функція
+// keys.push("more");
+
+// console.log(keys);
+
+// function aclean(arr) {
+//     let obj = {};
+  
+//     for (let i = 0; i < arr.length; i++) {
+//       let sorted = arr[i].toLowerCase().split("").sort().join("");
+//       obj[sorted] = arr[i];
+//     }
+  
+//     return Object.values(obj);
+//   }
+  
+//   let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+  
+//   alert( aclean(arr) );
+
+// function getCharMap(word){
+//     let charMap = new Map();
+//     for (let char of word) {
+//         char = char.toUpperCase();
+//         if (!charMap.has(char)){
+//             charMap.set(char, 0);
+//         } else {
+//             charMap.set(char, charMap.get(char) + 1);
+//         }
+//     }
+//     return charMap;
+// }
+
+// function anagramsHas(anagrams, charMap){
+//     for (let anagramCharMap of Array.from(anagrams.values())){
+//         if(anagramsEqual(anagramCharMap, charMap)){
+//             return true;
+//         }
+//     }
+
+//     return false;
+// }
+
+// function anagramsEqual(anagramCharMap, charMap){
+//     if (anagramCharMap.size != charMap.size){
+//         return false;
+//     }
+//     for (let entry of charMap.entries()){
+//         if (!(anagramCharMap.has(entry[0]) 
+//             && anagramCharMap.get(entry[0]) == entry[1])){
+//                 return false;
+//         }
+//     }
+
+//     return true;
+// }
+
+// function aclean(words){
+//     let anagrams = new Map();
+
+//     for (let word of words) {
+//         let charMap = getCharMap(word);
+//         if (anagrams.size == 0 || !anagramsHas(anagrams, charMap)){
+//             anagrams.set(word, charMap);
+//         }
+//     }
+//     console.log(anagrams.keys());
+//     return Array.from(anagrams.keys());
+// }
+
+// let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+
+// alert( aclean(arr) ); // "nap,teachers,ear" or "PAN,cheaters,era"
+
+// function unique(arr) {
+//     return Array.from(new Set(arr));
+// }
+
+// let values = ["Hare", "Krishna", "Hare", "Krishna", 
+//     "Krishna", "Krishna", "Hare", "Hare", ":-O"
+// ];
+
+// alert( unique(values) ); // Hare, Krishna, :-O
+
+// let testMap = new Map();
+
+// testMap.set('1', 'str1');
+// testMap.set(1, 'str2');
+// testMap.set(false, 'str3');
+
+// console.log(testMap.get('1'));
+// console.log(testMap.get(1));
+// console.log(testMap.get(false));
+
+// console.log(testMap.has(false));
+// console.log(testMap.has(true));
+
+// console.log(testMap.delete(false));
+// console.log(testMap.delete(false));
+
+// console.log(testMap.size);
+// testMap.clear();
+// console.log(testMap.size);
+
+// let recipeMap = new Map([
+//     ['огірок',   500],
+//     ['помідори', 350],
+//     ['цибуля',   50]
+// ]);
+
+// console.log(recipeMap.keys());
+// console.log(recipeMap.values());
+// console.log(recipeMap.entries());
+
+// масив пар [ключ, значення]
+// let map = new Map([
+//     ['1',  'str1'],
+//     [1,    'num1'],
+//     [true, 'bool1']
+//   ]);
+
+// console.log(map);
+
+// let obj = {
+//     name: "Іван",
+//     age: 30
+//   };
+  
+// console.log(Object.entries(obj));
+// console.log(Object.fromEntries(Object.entries(obj)) ===  obj);
+
+
 // Types 6
 
 // let range = {
