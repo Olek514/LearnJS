@@ -1,4 +1,34 @@
 "use strict"
+// Types 9
+
+// function count(user){
+//     return Object.values(user).length;
+// }
+
+// let user = {
+//     name: 'Іван',
+//     age: 30
+// };
+
+// alert( count(user) ); // 2
+
+// function sumSalaries(salaries) {
+//     let sum = 0;
+
+//     for (let salary of Object.values(salaries)){
+//         sum += salary;
+//     }
+
+//     return sum;
+// } 
+
+// let salaries = {
+//     "Іван": 100,
+//     "Петро": 300,
+//     "Марія": 250
+//   };
+  
+//   alert( sumSalaries(salaries) ); // 650
 
 // Types 8
 
