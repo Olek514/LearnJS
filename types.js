@@ -1,4 +1,31 @@
 "use strict"
+
+// Types 8
+
+// let messages = [
+//     {text: "Привіт", from: "Іван"},
+//     {text: "Як справи?", from: "Іван"},
+//     {text: "До зустрічі", from: "Аліса"}
+//   ];
+
+// let isMessageRead = new WeakSet();
+
+// messages.forEach(el => isMessageRead.add(el));
+
+// console.log(isMessageRead.has(messages[2]));
+// messages.pop();
+// console.log(isMessageRead.has(messages[2]));
+
+// let messages = [
+//     {text: "Привіт", from: "Іван"},
+//     {text: "Як справи?", from: "Іван"},
+//     {text: "До зустрічі", from: "Аліса"}
+//   ];
+  
+//   let readMap = new WeakMap();
+  
+//   readMap.set(messages[0], new Date(2017, 1, 1));
+
 // Types 7
 
 // let map = new Map();
