@@ -1,4 +1,40 @@
 "use strict"
+
+// Types 10
+
+// let salaries = {
+//     "Іван": 100,
+//     "Петро": 300,
+//     "Марія": 250
+// };
+
+// function topSalary(salaries){
+//     let maxSalaryValue = null;
+//     let maxSalaryName = null;
+
+//     for (let [name, salary] of Object.entries(salaries)){
+//         if (maxSalaryValue === null || salary > maxSalaryValue) {
+//             maxSalaryValue = salary;
+//             maxSalaryName = name;
+//         }
+//     }
+
+//     return maxSalaryName;
+// }
+
+// alert(topSalary(salaries));
+
+// let user = {
+//     name: "Іван",
+//     years: 30
+// };
+
+// let {name, years: age, isAdmin = false} = user;
+
+// alert( name ); // Іван
+// alert( age ); // 30
+// alert( isAdmin ); // false
+
 // Types 9
 
 // function count(user){
