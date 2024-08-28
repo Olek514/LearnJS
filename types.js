@@ -1,5 +1,96 @@
 "use strict"
 
+// Types 11
+
+// function formatDate(date){
+//     let diff = Date.now() - date;
+//     let message;
+
+//     if (diff < 1000) {
+//         message = "прямо зараз";
+//     } else if (diff < 60 * 1000) {
+//         let seconds = diff / 1000;
+//         message = `${seconds} сек. назад`;
+//     } else if (diff < 60 * 60 * 1000) {
+//         let minutes = diff / 60 / 1000;
+//         message = `${seconds} хв. назад`;
+//     } else {
+//         let d = date;
+//         d = [
+//             '0' + d.getDate(),
+//             '0' + (d.getMonth() + 1),
+//             '' + d.getFullYear(),
+//             '0' + d.getHours(),
+//             '0' + d.getMinutes()
+//         ].map(component => component.slice(-2));
+
+//         message = d.slice(0, 3).join('.') + ' ' + d.slice(3).join(':');    
+//     }
+
+//     return message;
+// }
+
+// alert(formatDate(Date.now()));
+
+// function getSecondsToTomorrow(){
+//     let curDate = new Date();
+//     let tomorrowDate = new Date(curDate.getFullYear(), curDate.getMonth(), curDate.getDate() + 1);
+
+//     return (tomorrowDate - curDate)/1000;
+// }
+
+// alert(getSecondsToTomorrow());
+
+// function getSecondsToday(){
+//     let curDate = new Date();
+//     return curDate.getHours()*60*60 + curDate.getMinutes()*60 + curDate.getSeconds();
+// }
+
+// alert( getSecondsToday() );
+
+// function getLastDayOfMonth(year, month){
+//     let lastDate = new Date(year, month+1, 0);
+//     return lastDate.getDate();
+// }
+
+// alert( getLastDayOfMonth(2012, 0) ); // 31
+// alert( getLastDayOfMonth(2012, 1) ); // 29
+// alert( getLastDayOfMonth(2013, 1) ); // 28
+
+// function getDateAgo(date, days){
+//     let dateCopy = new Date(date);
+
+//     dateCopy.setDate(date.getDate() - days);
+//     return dateCopy.getDate();}
+
+// let date = new Date(2015, 0, 2);
+
+// alert( getDateAgo(date, 1) ); // 1, (1 січня 2015)
+// alert( getDateAgo(date, 2) ); // 31, (31 грудня 2014)
+// alert( getDateAgo(date, 365) ); // 2, (2 січня 2014)
+
+// function getLocalDay(date){
+//     return (date.getDay() + 6) % 7 + 1;
+// }
+
+// let date = new Date(2012, 0, 3);  // 3 січня 2012
+// alert( getLocalDay(date) );
+// date = new Date(2012, 0, 8);  // 3 січня 2012
+// alert( getLocalDay(date) );
+
+// function getWeekDay(date){
+//     let days = ['НД', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'];
+
+//     return days[date.getDay()];
+// }
+
+// let date = new Date(2012, 0, 3);  // 3 січня 2012
+// alert( getWeekDay(date) ); 
+
+// let randomDate = new Date(2012, 1, 20, 3, 12);
+
+// alert(randomDate);
+
 // Types 10
 
 // let salaries = {
