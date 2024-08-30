@@ -1,5 +1,45 @@
 "use strict"
 
+// Types 12
+
+// let room = {
+//     number: 23
+//   };
+  
+//   let meetup = {
+//     title: "Конференція",
+//     occupiedBy: [{name: "Іван"}, {name: "Аліса"}],
+//     place: room
+//   };
+  
+//   // циклічне посилання
+//   room.occupiedBy = meetup;
+//   meetup.self = meetup;
+  
+//   alert( JSON.stringify(meetup, function replacer(key, value) {
+//     if (key != "" && value === meetup) return undefined;
+//     else return value;
+//   }, 2));
+  
+//   /* результат повинен бути:
+//   {
+//     "title":"Конференція",
+//     "occupiedBy":[{"name":"Іван"},{"name":"Аліса"}],
+//     "place":{"number":23}
+//   }
+//   */
+
+// let user = {
+//     name: "Іван Іванов",
+//     age: 35
+//   };
+
+// let jsonUser = JSON.stringify(user);
+
+// let userAgain = JSON.parse(jsonUser);
+
+// console.log(userAgain);
+
 // Types 11
 
 // function formatDate(date){
